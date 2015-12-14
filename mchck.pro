@@ -1,6 +1,6 @@
-update=Thu 27 Feb 2014 06:30:23 PM CET
+update=13/12/2015 23:43:53
 version=1
-last_client=pcbnew
+last_client=kicad
 [general]
 version=1
 [cvpcb]
@@ -8,28 +8,51 @@ version=1
 NetIExt=net
 [cvpcb/libraries]
 EquName1=devcms
+[pcbnew]
+version=1
+LastNetListRead=mchck.net
+UseCmpFile=1
+PadDrill=2.540000000000
+PadDrillOvalY=2.540000000000
+PadSizeH=2.540000000000
+PadSizeV=2.540000000000
+PcbTextSizeV=0.899160000000
+PcbTextSizeH=0.899160000000
+PcbTextThickness=0.149860000000
+ModuleTextSizeV=0.899160000000
+ModuleTextSizeH=0.899160000000
+ModuleTextSizeThickness=0.149860000000
+SolderMaskClearance=0.100000000000
+SolderMaskMinWidth=0.100000000000
+DrawSegmentWidth=0.149860000000
+BoardOutlineThickness=0.101600000000
+ModuleOutlineThickness=0.120000000000
+[pcbnew/libraries]
+LibDir=C:/git_bobc/bobc_hardware_live/KiCAD_Libraries/modules;C:/git_bobc/bobc_hardware_live/KiCAD_Libraries/packages3d;C:/git_bobc/bobc_hardware_live/KiCAD_Libraries;C:/git_bobc/bobc_hardware_live/KiCAD_Libraries/walter/pcbnew
+LibName1=mchck
+LibName2=RMC
+LibName3=opendous
+LibName4=libcms
+LibName5=w_crystal
+LibName6=RMC_protoboard
+LibName7=RMC_pcb_header
 [eeschema]
 version=1
-LibDir=.
-NetFmtName=PcbnewAdvanced
-RptD_X=0
-RptD_Y=100
-RptLab=1
-LabSize=40
+LibDir=.;C:/git_bobc/bobc_hardware_live/KiCAD_Libraries/library
 [eeschema/libraries]
-LibName1=usb
-LibName2=power
-LibName3=device
-LibName4=transistors
-LibName5=conn
-LibName6=linear
-LibName7=regul
-LibName8=74xx
-LibName9=cmos4000
-LibName10=adc-dac
-LibName11=memory
-LibName12=xilinx
-LibName13=special
+LibName1=mchck-rescue
+LibName2=usb
+LibName3=power
+LibName4=device
+LibName5=transistors
+LibName6=conn
+LibName7=linear
+LibName8=regul
+LibName9=74xx
+LibName10=cmos4000
+LibName11=adc-dac
+LibName12=memory
+LibName13=xilinx
 LibName14=microcontrollers
 LibName15=dsp
 LibName16=microchip
@@ -66,25 +89,5 @@ LibName46=MK20LF
 LibName47=mounthole
 LibName48=vssa
 LibName49=vdda
-[pcbnew]
-version=1
-LastNetListRead=mchck.net
-UseCmpFile=0
-PadDrill="    0.750000"
-PadDrillOvalY="    0.750000"
-PadSizeH="    1.200000"
-PadSizeV="    1.500000"
-PcbTextSizeV="    0.899160"
-PcbTextSizeH="    0.899160"
-PcbTextThickness="    0.149860"
-ModuleTextSizeV="    0.899160"
-ModuleTextSizeH="    0.899160"
-ModuleTextSizeThickness="    0.149860"
-SolderMaskClearance="    0.100000"
-SolderMaskMinWidth="    0.100000"
-DrawSegmentWidth="    0.149860"
-BoardOutlineThickness="    0.381000"
-ModuleOutlineThickness="    0.050000"
-[pcbnew/libraries]
-LibDir=
-LibName1=mchck
+LibName50=RMC
+LibName51=opendous

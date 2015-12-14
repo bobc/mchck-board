@@ -1,52 +1,45 @@
-Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Fri 28 Feb 2014 02:05:57 PM CET
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 29/11/2015 11:55:06
 
 BeginCmp
 TimeStamp = /50474F32/5048FC9E;
 Reference = C1;
 ValeurCmp = 2.2u;
-IdModule  = SMD-1005;
+IdModule  = SM0603_Capa;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F22DD51/50477AE0;
+TimeStamp = /50474F32/565ADA68;
 Reference = C2;
-ValeurCmp = 2.2u;
-IdModule  = SMD-1005;
+ValeurCmp = 100n;
+IdModule  = SM0603_Capa;
 EndCmp
 
 BeginCmp
 TimeStamp = /50474F32/4F22C5A2;
 Reference = C3;
 ValeurCmp = 100n;
-IdModule  = SMD-1005;
+IdModule  = SM0603_Capa;
 EndCmp
 
 BeginCmp
 TimeStamp = /50474F32/4F22F29F;
 Reference = C4;
 ValeurCmp = 100n;
-IdModule  = SMD-1005;
+IdModule  = SM0603_Capa;
 EndCmp
 
 BeginCmp
 TimeStamp = /50474F32/4F22C606;
 Reference = C5;
 ValeurCmp = 100n;
-IdModule  = SMD-1005;
+IdModule  = SM0603_Capa;
 EndCmp
 
 BeginCmp
 TimeStamp = /50474F32/4E4181C7;
 Reference = C6;
 ValeurCmp = 100n;
-IdModule  = SMD-1005;
-EndCmp
-
-BeginCmp
-TimeStamp = /4F22DD51/4F22E9AF;
-Reference = C7;
-ValeurCmp = 4.7u;
-IdModule  = SM0805;
+IdModule  = SM0603_Capa;
 EndCmp
 
 BeginCmp
@@ -57,9 +50,9 @@ IdModule  = SM0603_Capa;
 EndCmp
 
 BeginCmp
-TimeStamp = /50474F32/4F475346;
-Reference = C10;
-ValeurCmp = 100n;
+TimeStamp = /50474F32/54C18BA2;
+Reference = C9;
+ValeurCmp = 18pF;
 IdModule  = SM0603_Capa;
 EndCmp
 
@@ -67,14 +60,21 @@ BeginCmp
 TimeStamp = /4F22DD51/503156DF;
 Reference = C11;
 ValeurCmp = 10u;
-IdModule  = SM0805;
+IdModule  = SM0603_Capa;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F22DD51/4F22DDA9;
 Reference = C12;
 ValeurCmp = 10u;
-IdModule  = SM0805;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /50474F32/54C18BA8;
+Reference = C13;
+ValeurCmp = 18pF;
+IdModule  = SM0603_Capa;
 EndCmp
 
 BeginCmp
@@ -85,16 +85,9 @@ IdModule  = LED-0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F22DD51/5030034E;
-Reference = D2;
-ValeurCmp = CDBU0530;
-IdModule  = SOD-523F;
-EndCmp
-
-BeginCmp
-TimeStamp = /4F22DD51/4F22EB14;
+TimeStamp = /4F22DD51/54C4F85C;
 Reference = D3;
-ValeurCmp = CDBU0530;
+ValeurCmp = DIODE-SCHOTTKY_;
 IdModule  = SOD-523F-NC;
 EndCmp
 
@@ -113,143 +106,108 @@ IdModule  = OHW-LOGO-6mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /5049CF35;
-Reference = H1;
-ValeurCmp = MOUNTHOLE;
-IdModule  = mounthole_3mm;
-EndCmp
-
-BeginCmp
 TimeStamp = /504995A0/4F274705;
 Reference = J3;
 ValeurCmp = MICRO_USB;
-IdModule  = SparkFun-USB-MICROB;
+IdModule  = USB_MICRO_RMC_FCI;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F22DD51/503C00A7;
-Reference = L1;
-ValeurCmp = INDUCTOR_SELECT;
-IdModule  = SM0805-3WAY;
+TimeStamp = /50474F32/565AE17B;
+Reference = K1;
+ValeurCmp = CONN_MICROSD;
+IdModule  = SD_MOLEX_47579-0001-2;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F2EFBC8;
-Reference = P1;
-ValeurCmp = RIGHT_PINS;
-IdModule  = SparkFun-1X06_LOCK;
+TimeStamp = /54C3842E;
+Reference = M1;
+ValeurCmp = PCB_GREEN_RMC;
+IdModule  = PCB_GREEN;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F3D2CED;
+TimeStamp = /56564A1C;
 Reference = P2;
-ValeurCmp = DEBUG;
-IdModule  = SparkFun-1X04_LOCK;
+ValeurCmp = CONN_1;
+IdModule  = pin_header_2.54mm_1x1;
 EndCmp
 
 BeginCmp
 TimeStamp = /4E446858;
 Reference = P3;
 ValeurCmp = UPPER_PINS;
-IdModule  = SparkFun-1X14_LOCK;
+IdModule  = pin_header_2.54mm_1x18;
 EndCmp
 
 BeginCmp
 TimeStamp = /4E446864;
 Reference = P4;
 ValeurCmp = LOWER_PINS;
-IdModule  = SparkFun-1X14_LOCK;
+IdModule  = pin_header_2.54mm_1x18;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F22DD51/4F22E691;
-Reference = P5;
-ValeurCmp = CHG;
-IdModule  = solderpad;
-EndCmp
-
-BeginCmp
-TimeStamp = /4F22DD51/530D1681;
-Reference = P7;
-ValeurCmp = LIPO;
-IdModule  = SIL100-2;
-EndCmp
-
-BeginCmp
-TimeStamp = /504995A0/530E6520;
-Reference = P9;
-ValeurCmp = 5V;
-IdModule  = solderpad;
-EndCmp
-
-BeginCmp
-TimeStamp = /504995A0/530E6527;
-Reference = P10;
-ValeurCmp = GND;
-IdModule  = solderpad;
-EndCmp
-
-BeginCmp
-TimeStamp = /504995A0/530E677F;
-Reference = P11;
-ValeurCmp = D-;
-IdModule  = solderpad;
-EndCmp
-
-BeginCmp
-TimeStamp = /504995A0/530E6786;
-Reference = P12;
-ValeurCmp = D+;
-IdModule  = solderpad;
+TimeStamp = /50474F32/56564C5B;
+Reference = P6;
+ValeurCmp = JTAG;
+IdModule  = Pin_Array_5x2_SMT_1.27mm_RMC;
 EndCmp
 
 BeginCmp
 TimeStamp = /504995A0/4F22C569;
 Reference = R1;
 ValeurCmp = 33;
-IdModule  = SMD-1005;
+IdModule  = SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /504995A0/4F22C560;
 Reference = R2;
 ValeurCmp = 33;
-IdModule  = SMD-1005;
+IdModule  = SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /50474F32/4E4186C6;
 Reference = R3;
 ValeurCmp = 1k;
-IdModule  = SMD-1005;
+IdModule  = SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F22DD51/4F22E7C7;
+TimeStamp = /50474F32/54C4E58A;
 Reference = R4;
-ValeurCmp = 20k;
-IdModule  = SM0603;
+ValeurCmp = 10k;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /50474F32/54C534D7;
+Reference = R5;
+ValeurCmp = 10k;
+IdModule  = SM0603_Resistor;
 EndCmp
 
 BeginCmp
 TimeStamp = /50474F32/50466EFD;
 Reference = S1;
-ValeurCmp = TAC_SWITCHSMD_EVQP2;
-IdModule  = TACT_4x3;
+ValeurCmp = RESET;
+IdModule  = SW_C&K_KMR4_ALT;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F22DD51/503BFB94;
-Reference = SJ5;
-ValeurCmp = SOLDERJUMPERNO;
-IdModule  = solder-jumper;
+TimeStamp = /50474F32/54C4E7D4;
+Reference = S2;
+ValeurCmp = USER;
+IdModule  = SW_C&K_KMR4_ALT;
 EndCmp
 
 BeginCmp
 TimeStamp = /4F22DD51/520A195F;
 Reference = SJ6;
 ValeurCmp = SOLDERJUMPERNC;
-IdModule  = SM0603_NC;
+IdModule  = SM0603_Bridged;
 EndCmp
 
 BeginCmp
@@ -260,31 +218,24 @@ IdModule  = LQFP48;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F22DD51/4F22DEC3;
+TimeStamp = /4F22DD51/54C2F163;
 Reference = U2;
-ValeurCmp = MCP73831-SOT;
-IdModule  = SOT23-5;
+ValeurCmp = MCP1703_SOT23;
+IdModule  = SOT23;
 EndCmp
 
 BeginCmp
-TimeStamp = /50474F32/4F22E1F9;
-Reference = U3;
-ValeurCmp = SPI_FLASH-X25XXSMD;
-IdModule  = SparkFun-SO08;
+TimeStamp = /50474F32/54C3B144;
+Reference = X1;
+ValeurCmp = 8MHz;
+IdModule  = XTAL-SM-TXC-7A;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F22DD51/503BF088;
-Reference = U4;
-ValeurCmp = MULTIREG;
-IdModule  = SOT23-5;
-EndCmp
-
-BeginCmp
-TimeStamp = /50474F32/5045BE79;
+TimeStamp = /50474F32/54C5343F;
 Reference = Y1;
-ValeurCmp = CRYSTAL32-SMD;
-IdModule  = SparkFun-CRYSTAL-32KHZ-SMD;
+ValeurCmp = 32.768kHz;
+IdModule  = crystal_tc-26_horiz;
 EndCmp
 
 EndListe
