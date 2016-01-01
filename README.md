@@ -1,3 +1,6 @@
+![BC-HCK](https://github.com/bobc/mchck-board/blob/master/doc/mchck.png "BC-HCK")
+
+
 About BC-HCK
 ============
 
