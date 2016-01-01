@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name RMC)(type Legacy)(uri "$(KIPRJMOD)\\footprints\\RMC.mod")(options "")(descr ""))
+  (lib (name RMC_pcb_header)(type Legacy)(uri "$(KIPRJMOD)\\footprints\\RMC_pcb_header.mod")(options "")(descr ""))
+  (lib (name w_crystal)(type Legacy)(uri "$(KIPRJMOD)\\footprints\\w_crystal.mod")(options "")(descr ""))
+  (lib (name mchck)(type KiCad)(uri "$(KIPRJMOD)\\footprints\\mchck.pretty")(options "")(descr ""))
+)

@@ -1,0 +1,13 @@
+(module solderpad (layer F.Cu) (tedit 530FDB4C)
+  (fp_text reference solderpad (at 0 1.6) (layer F.SilkS) hide
+    (effects (font (size 0.89916 0.89916) (thickness 0.14986)))
+  )
+  (fp_text value VAL** (at 0 -1.45) (layer F.SilkS)
+    (effects (font (size 0.81 0.81) (thickness 0.14986)))
+  )
+  (fp_line (start -0.9 -0.9) (end 0.9 -0.9) (layer F.SilkS) (width 0.12))
+  (fp_line (start 0.9 -0.9) (end 0.9 0.9) (layer F.SilkS) (width 0.12))
+  (fp_line (start 0.9 0.9) (end -0.9 0.9) (layer F.SilkS) (width 0.12))
+  (fp_line (start -0.9 0.9) (end -0.9 -0.9) (layer F.SilkS) (width 0.12))
+  (pad 1 smd rect (at 0 0) (size 1.3 1.3) (layers F.Cu F.Paste F.Mask))
+)
