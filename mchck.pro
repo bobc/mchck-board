@@ -1,4 +1,4 @@
-update=01/01/2016 16:00:28
+update=01/01/2016 16:43:50
 version=1
 last_client=kicad
 [general]
@@ -54,3 +54,13 @@ LibName11=logo
 LibName12=MK20LF
 LibName13=RMC
 LibName14=opendous
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60

@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:mchck-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -20,12 +19,12 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 4
-Title "MC HCK microcontroller board"
-Date "29 nov 2015"
-Rev "R5-rc3"
-Comp "(c) 2011,2012,2013 Simon Schubert"
-Comment1 "CERN OHL v.1.1 or later"
-Comment2 ""
+Title "BC HCK K20 "
+Date "2016-01-01"
+Rev "v2"
+Comp "License: CERN OHL v.1.1 or later"
+Comment1 "Copyright Bob Cousins 2016"
+Comment2 "Derived from MC HCK microcontroller board by Simon Schubert"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -119,8 +118,6 @@ F1 "mcu.sch" 60
 $EndSheet
 Text Notes 900  1800 0    100  ~ 0
 TODO\n\nDIP 32?\n- VREF pin\n- move VRAW
-Text Notes 7050 6850 0    80   ~ 0
-BC-HCK version 1 \nBob Cousins Jan 2015
 Wire Wire Line
 	4900 3900 4900 3550
 Wire Wire Line

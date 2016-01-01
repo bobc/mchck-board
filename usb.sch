@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:mchck-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -20,12 +19,12 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 4
-Title "MC HCK microcontroller board"
-Date "29 nov 2015"
-Rev "R5-rc3"
-Comp "(c) 2011,2012,2013 Simon Schubert"
-Comment1 "CERN OHL v.1.1 or later"
-Comment2 ""
+Title "BC HCK K20 "
+Date "2016-01-01"
+Rev "v2"
+Comp "License: CERN OHL v.1.1 or later"
+Comment1 "Copyright Bob Cousins 2016"
+Comment2 "Derived from MC HCK microcontroller board by Simon Schubert"
 Comment3 ""
 Comment4 ""
 $EndDescr
