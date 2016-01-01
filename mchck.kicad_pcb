@@ -1293,6 +1293,11 @@
       (net 32 D6))
     (pad 48 smd rect (at -2.74828 -4.29768) (size 0.24892 1.4986) (layers F.Cu F.Paste F.Mask)
       (net 33 D7))
+    (model Housings_QFP.3dshapes/LQFP-48_7x7mm_Pitch0.5mm.wrl
+        (at (xyz 0 0 0))
+        (scale (xyz 1 1 1))
+        (rotate (xyz 0 0 0))
+    )
   )
 
   (module TO_SOT_Packages_SMD:SOT-23 (layer B.Cu) (tedit 5682FFDD) (tstamp 5683691A)
