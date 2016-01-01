@@ -1,6 +1,5 @@
 ![BC-HCK](https://github.com/bobc/mchck-board/blob/master/doc/mchck.png "BC-HCK")
 
-
 About BC-HCK
 ============
 
@@ -12,6 +11,7 @@ The schematic design and layout was done using Kicad, a Free Software EDA tool f
 
 Note: this project needs the new stable version of Kicad (4.0.0 or later), previous versions can not read the new files.
 
+![KiCad](https://github.com/bobc/mchck-board/blob/master/doc/kicad_logo_designed_with_small.jpg "KiCad")
 
 Copyright
 ---------
