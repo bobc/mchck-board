@@ -1,4 +1,4 @@
-update=01/01/2016 16:43:50
+update=03/01/2016 14:21:57
 version=1
 last_client=kicad
 [general]
@@ -54,13 +54,15 @@ LibName11=logo
 LibName12=MK20LF
 LibName13=RMC
 LibName14=opendous
+LibName15=library/multireg
+LibName16=library/inductor_select
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
 PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65
-NetFmtName=
+NetFmtName=Pcbnew
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=60

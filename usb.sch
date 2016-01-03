@@ -13,6 +13,8 @@ LIBS:logo
 LIBS:MK20LF
 LIBS:RMC
 LIBS:opendous
+LIBS:multireg
+LIBS:inductor_select
 LIBS:mchck-cache
 EELAYER 25 0
 EELAYER END

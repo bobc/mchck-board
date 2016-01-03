@@ -13,6 +13,8 @@ LIBS:logo
 LIBS:MK20LF
 LIBS:RMC
 LIBS:opendous
+LIBS:multireg
+LIBS:inductor_select
 LIBS:mchck-cache
 EELAYER 25 0
 EELAYER END
@@ -116,8 +118,6 @@ U 50474F32
 F0 "MCU" 60
 F1 "mcu.sch" 60
 $EndSheet
-Text Notes 900  1800 0    100  ~ 0
-TODO\n\nDIP 32?\n- VREF pin\n- move VRAW
 Wire Wire Line
 	4900 3900 4900 3550
 Wire Wire Line
@@ -150,7 +150,7 @@ Text GLabel 4800 3900 3    40   3State ~ 0
 C3
 Text GLabel 4900 3900 3    40   3State ~ 0
 C2
-Text GLabel 3500 3900 3    40   Output ~ 0
+Text GLabel 3600 5600 1    40   Output ~ 0
 VRAW
 Wire Wire Line
 	3500 5050 3350 5050
@@ -166,11 +166,11 @@ Text GLabel 4900 5600 1    40   3State ~ 0
 B3
 Wire Wire Line
 	4900 5600 4900 5850
-Text GLabel 3700 5600 1    40   Output ~ 0
-ADC0+
 Text GLabel 3800 5600 1    40   Output ~ 0
+ADC0+
+Text GLabel 3900 5600 1    40   Output ~ 0
 ADC0-
-Text GLabel 4000 5600 1    40   Output ~ 0
+Text GLabel 3700 5600 1    40   Output ~ 0
 VBAT
 Text GLabel 4100 5600 1    40   3State ~ 0
 A0
@@ -182,10 +182,6 @@ Text GLabel 4400 5600 1    40   3State ~ 0
 A3
 Text GLabel 4500 5600 1    40   3State ~ 0
 A4
-Text GLabel 5750 5500 1    40   3State ~ 0
-A18
-Text GLabel 5850 5500 1    40   3State ~ 0
-A19
 Text GLabel 4600 5600 1    40   3State ~ 0
 B0
 Text GLabel 4700 5600 1    40   3State ~ 0
@@ -213,22 +209,9 @@ F 3 "" H 5200 4200 60  0000 C CNN
 	1    5200 4200
 	-1   0    0    1   
 $EndComp
-Text GLabel 3900 5600 1    40   Input ~ 0
+Text GLabel 4000 5600 1    40   Input ~ 0
 VREFH
-$Comp
-L CONN_01X01 P2
-U 1 1 56564A1C
-P 2950 3350
-F 0 "P2" H 3030 3350 40  0000 L CNN
-F 1 "CONN_1" H 2950 3405 30  0001 C CNN
-F 2 "RMC_pcb_header:pin_header_2.54mm_1x1" H 2950 3200 60  0001 C CNN
-F 3 "" H 2950 3350 60  0000 C CNN
-	1    2950 3350
-	0    -1   -1   0   
-$EndComp
-Text GLabel 2550 5800 1    40   Input ~ 0
-VREFL
-Text GLabel 2950 3550 3    40   Input ~ 0
+Text GLabel 3500 3900 3    40   Input ~ 0
 VBUS
 Wire Wire Line
 	5100 3900 5100 3550
@@ -264,4 +247,6 @@ F 3 "" H 4350 3350 50  0000 C CNN
 	1    4350 3350
 	0    -1   -1   0   
 $EndComp
+Wire Wire Line
+	3600 5600 3600 5850
 $EndSCHEMATC

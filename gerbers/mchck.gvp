@@ -7,5 +7,5 @@
 (define-layer! 2 (cons 'filename "mchck-F.Mask.gts")(cons 'visible #t)(cons 'color #(0 65280 65280)))
 (define-layer! 1 (cons 'filename "mchck-F.SilkS.gto")(cons 'visible #t)(cons 'color #(65280 45824 0)))
 (define-layer! 0 (cons 'filename "mchck.drl")(cons 'visible #t)(cons 'color #(32768 15872 29952)))
-(define-layer! -1 (cons 'filename "C:\github\mchck\mchck-board\gerbers")(cons 'visible #t)(cons 'color #(0 0 0)))
+(define-layer! -1 (cons 'filename "c:\github\mchck\mchck-board\gerbers")(cons 'visible #t)(cons 'color #(0 0 0)))
 (set-render-type! 2)
